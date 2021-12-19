@@ -4,10 +4,10 @@ This project uses [TensorFlow Lite IoT Image Classifier](https://github.com/andr
 
 ## How does the system work
 
-1. It takes a shot of garbage
-2. Pass it to the classifier.
-3. Classifier makes a decision about it fits which category(paper, metal or plastic) more
-4. Turn on the LED of the decided category
+1. It takes a photo of garbage
+2. Passes it to the classifier.
+3. Classifier decides it fits which category(paper, metal or plastic) more
+4. Turns on the LED of the decided category
 5. Other systems are able to use this decision for performing some actions. For example, the system can open the lid of the section which is related to this decision in order to let the garbage down to this section.
 
 > **Note**: Project was tested on Raspberry Pi 3.
